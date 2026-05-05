@@ -2,7 +2,7 @@
 
 > Last updated: **2026-05-05 14:30 UTC**  
 > Baseline weighted F1: **0.4453**  
-> Metric: weighted F1-score on the public test set
+> Metric: weighted F1-score on the hidden test set
 
 ---
 
