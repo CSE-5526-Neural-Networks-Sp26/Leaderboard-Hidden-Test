@@ -10,7 +10,7 @@ no self-reported scores.
 Run by GitHub Actions on every push to submissions/.
 
 Environment variables:
-  GROUND_TRUTH : path to public test ground truth CSV
+  GROUND_TRUTH : path to hidden test ground truth CSV
 """
 
 import os
@@ -28,7 +28,10 @@ EMOTION_TO_IDX  = {e: i for i, e in enumerate(EMOTIONS)}
 
 
 def load_ground_truth(gt_path):
-    df = pd.read_csv(gt_path).sort_values("clip_id").reset_index(drop=True)
+    df = pd.read_csv(gt_path)
+    df["clip_id"] = df["clip_id"].astype(str).str.strip()
+    df["emotion"] = df["emotion"].astype(str).str.strip()
+    df = df.sort_values("clip_id").reset_index(drop=True)
     return df.set_index("clip_id")["emotion"].to_dict()
 
 
@@ -55,7 +58,12 @@ def load_submissions():
 
 
 def verify(data, ground_truth):
-    df   = data["df"].sort_values("clip_id").reset_index(drop=True)
+    df = data["df"].copy()
+    # Strip whitespace/carriage returns caused by Windows line endings
+    df["clip_id"]           = df["clip_id"].astype(str).str.strip()
+    df["predicted_emotion"] = df["predicted_emotion"].astype(str).str.strip()
+    df = df.sort_values("clip_id").reset_index(drop=True)
+
     true = [EMOTION_TO_IDX[ground_truth[c]] for c in df["clip_id"]
             if c in ground_truth]
     pred = [EMOTION_TO_IDX.get(e, -1)
