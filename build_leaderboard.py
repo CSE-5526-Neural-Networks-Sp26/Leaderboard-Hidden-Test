@@ -127,7 +127,7 @@ def build_markdown(rows, baseline_f1, generated_at):
 
 def main():
     gt_path = os.environ.get("GROUND_TRUTH",
-                              "ground_truth/public_test_labels.csv")
+                              "ground_truth/hidden_test_labels.csv")
 
     print(f"Ground truth : {gt_path}")
     ground_truth = load_ground_truth(gt_path)
