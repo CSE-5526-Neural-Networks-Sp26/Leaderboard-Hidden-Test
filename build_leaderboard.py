@@ -98,7 +98,7 @@ def build_markdown(rows, baseline_f1, generated_at):
     lines.append("")
     lines.append(f"> Last updated: **{generated_at}**  ")
     lines.append(f"> Baseline weighted F1: **{baseline_f1:.4f}**  ")
-    lines.append(f"> Metric: weighted F1-score on the public test set")
+    lines.append(f"> Metric: weighted F1-score on the hidden test set")
     lines.append("")
     lines.append("---")
     lines.append("")
