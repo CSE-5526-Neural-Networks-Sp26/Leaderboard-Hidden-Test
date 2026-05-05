@@ -1,6 +1,6 @@
 # Leaderboard — Speech Emotion Recognition Challenge
 
-> Last updated: **2026-05-05 14:21 UTC**  
+> Last updated: **2026-05-05 14:24 UTC**  
 > Baseline weighted F1: **0.4453**  
 > Metric: weighted F1-score on the public test set
 
@@ -8,24 +8,24 @@
 
 | Team Name | Weighted F1 | Date and Time |
 |-----------|-------------|---------------|
-| group 12 | 0.7189 | May 05, 2026  14:20 UTC |
-| group5 | 0.7045 | May 05, 2026  14:20 UTC |
-| Tucker Polintan Huang | 0.7012 | May 05, 2026  14:20 UTC |
-| ihop | 0.6982 | May 05, 2026  14:20 UTC |
-| GROUP 6 | 0.6788 | May 05, 2026  14:20 UTC |
-| fftj2 | 0.6711 | May 05, 2026  14:20 UTC |
-| yujie-jacob-yutong | 0.6655 | May 05, 2026  14:20 UTC |
-| Group-1 | 0.6555 | May 05, 2026  14:20 UTC |
-| Group 10 | 0.6547 | May 05, 2026  14:20 UTC |
-| AngelP-JohnnyZ-EvanS | 0.6514 | May 05, 2026  14:20 UTC |
-| SEA | 0.6511 | May 05, 2026  14:20 UTC |
-| Group 7 | 0.6355 | May 05, 2026  14:20 UTC |
-| Group 2 | 0.6317 | May 05, 2026  14:20 UTC |
-| EmotionLab | 0.6308 | May 05, 2026  14:20 UTC |
-| Jacob Krish Aidan | 0.5834 | May 05, 2026  14:20 UTC |
-| Larry Elijah | 0.5434 | May 05, 2026  14:20 UTC |
-| baseline | 0.4453 | May 05, 2026  14:20 UTC |
-| group3 | 0.3931 | May 05, 2026  14:20 UTC |
+| group 12 | 0.7189 | May 05, 2026  14:24 UTC |
+| group5 | 0.7045 | May 05, 2026  14:24 UTC |
+| Tucker Polintan Huang | 0.7012 | May 05, 2026  14:24 UTC |
+| ihop | 0.6982 | May 05, 2026  14:24 UTC |
+| GROUP 6 | 0.6788 | May 05, 2026  14:24 UTC |
+| fftj2 | 0.6711 | May 05, 2026  14:24 UTC |
+| yujie-jacob-yutong | 0.6655 | May 05, 2026  14:24 UTC |
+| Group-1 | 0.6555 | May 05, 2026  14:24 UTC |
+| Group 10 | 0.6547 | May 05, 2026  14:24 UTC |
+| AngelP-JohnnyZ-EvanS | 0.6514 | May 05, 2026  14:24 UTC |
+| SEA | 0.6511 | May 05, 2026  14:24 UTC |
+| Group 7 | 0.6355 | May 05, 2026  14:24 UTC |
+| Group 2 | 0.6317 | May 05, 2026  14:24 UTC |
+| EmotionLab | 0.6308 | May 05, 2026  14:24 UTC |
+| Jacob Krish Aidan | 0.5834 | May 05, 2026  14:24 UTC |
+| Larry Elijah | 0.5434 | May 05, 2026  14:24 UTC |
+| baseline | 0.4453 | May 05, 2026  14:24 UTC |
+| group3 | 0.3931 | May 05, 2026  14:24 UTC |
 
 ---
 
